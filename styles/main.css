@@ -1,0 +1,65 @@
+#projects {
+    display: grid;
+    justify-content: center;
+    padding-block: 72px 144px;  
+    background-color: var(--base-gray200); 
+
+    #projectlinks {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        
+        .card {
+            text-decoration: none;
+            display: grid;
+            width: 330px;            
+            background-color: var(--base-gray300);
+            border-radius: 10px;
+            border: solid 1.5px transparent;            
+
+            img {
+                width: 300px;
+                border-radius: 10px;
+                justify-self: center;
+                margin-top: 12px;
+            }
+
+            div {
+                display: grid;
+                margin: 20px 12px 17px;
+                padding: 4px;
+                gap: 8px;
+
+                p {
+                    color: var(--base-gray500);
+                }
+            }
+
+            &:hover {
+                border: solid 1.5px var(--base-gray400);
+            }
+        }
+    }
+}
+
+#services {
+    display: grid;
+    padding-block: 88px 120px ;
+
+    #works {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .card {
+        border: solid 2px var(--base-gray200);
+        border-radius: 12px;
+        padding: 20px;
+
+        h3 {
+            width: 240px;
+            margin-block: 20px 8px;
+        }
+    }
+}

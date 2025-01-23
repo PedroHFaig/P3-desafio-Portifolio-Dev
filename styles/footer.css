@@ -1,0 +1,46 @@
+footer {
+    padding-block: 128px 200px;
+    background-image: url(../assets/background/Background_Contacts.png);
+    background-size: 100%;
+
+    .title span {
+        color: var(--main-purple);
+    }
+
+    nav {
+        display: grid;
+        justify-content: center;
+        gap: 16px;
+
+        .social {
+            display: flex;
+            align-items: center;
+            width: 400px;
+            gap: 12px;
+            padding: 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            border: solid 1.5px transparent;
+            background-color: var(--base-gray300);
+
+            .blue {
+                position: absolute;
+                opacity: 0%;
+            }
+
+            p {
+                width: 288px;
+                font: var(--text-md);
+                color: var(--base-gray500);                
+            }
+
+            &:hover {
+                border: solid 1.5px var(--main-blue);
+
+                .blue{
+                    opacity: 100%;
+                }
+            }
+        }
+    }
+}
