@@ -47,7 +47,7 @@ span {
     color: var(--main-red);
 }
 
-header {
+.title {
     display: grid;
     text-align: center;
     gap: 8px;

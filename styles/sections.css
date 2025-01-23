@@ -117,7 +117,7 @@
     display: grid;
     padding-block: 88px 120px ;
 
-    main {
+    #works {
         display: flex;
         justify-content: center;
         gap: 24px;
@@ -133,7 +133,6 @@
             margin-block: 20px 8px;
         }
     }
-
 }
 
 #contact {
@@ -141,7 +140,7 @@
     background-image: url(../assets/background/Background_Contacts.png);
     background-size: 100%;
 
-    header span {
+    .title span {
         color: var(--main-purple);
     }
 
